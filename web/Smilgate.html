@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>스마일게이트 소개</title>
+    <style>
+        .container {
+            text-align: center; /* 컨테이너 전체를 가운데 정렬 */
+        }
+        .section-title {
+            float: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        .history-item {
+            text-align: left;
+        }
+        .game-container {
+            justify-content: left; /* 게임 항목 가운데 정렬 */
+            flex-wrap: wrap; /* 화면 크기에 따라 줄 바꿈 */
+        }
+
+        .game-item {
+            display: inline-block;
+            text-align: left;
+            flex: 1; /* 각 게임 항목이 공간을 균등하게 차지 */
+            white-space: nowrap;
+            margin: 10px;
+        }
+
+        .game-image {
+            float: left;
+            max-width: 200px;
+        }
+
+        ul{
+            text-align: center;
+        }
+
+        li{
+            display: inline-block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="logo icon" src="C:\Users\omy\Desktop\web\img\스마일게이트 로고.svg" alt="스마일게이트 로고" width="70" height="70">
+        <h2>스마일게이트</h2>
+
+        <h3 class="section-title">회사 소개</h3>
+        <p>스마일게이트는 글로벌 엔터테인먼트 기업으로, 즐거운 게임과 다양한 엔터테인먼트 콘텐츠를 통해 전 세계 사람들에게 즐거움을 선사합니다. 대표적인 게임으로는 로스트아크가 있으며, 끊임없는 혁신을 통해 새로운 가치를 창출하고 있습니다.</p>
+
+        <h3 class="section-title">비전</h3>
+        <p class="vision">스마일게이트는 즐거운 게임과 다양한 엔터테인먼트 콘텐츠를 통해 전 세계 사람들에게 긍정적인 경험을 선사하고, 글로벌 엔터테인먼트 시장을 선도하는 기업이 되겠습니다.</p>
+
+        <h3 class="section-title">인재상</h3>
+        <p class="talent">스마일게이트는 혁신을 두려워하지 않고 새로운 도전을 즐기는 열정적인 인재, 팀워크를 중시하며 함께 성장하고 싶어하는 협동적인 인재, 그리고 글로벌 시장에서 경쟁력을 갖춘 인재를 찾습니다.</p>
+
+        <h3 class="section-title">연혁</h3>
+        <p class="history">
+            <ul>
+                <li class="history-item">2002년: 스마일게이트 설립</li><hr>
+                <li class="history-item">2008년: 크로스파이어 글로벌 서비스 시작</li><hr>
+                <li class="history-item">2018년: 로스트아크 출시</li>
+            </ul>
+        </p>
+
+        <div class="game-item">
+            <img class="game-image" src="C:\Users\omy\Desktop\web\img\로스트아크 로고.jpg" alt="로스트아크" width="200" height="200">
+            <h4><hr>로스트아크</h4>
+        </div>
+        
+        <div class="game-item">
+            <img class="game-image" src="C:\Users\omy\Desktop\web\img\크로스파이어 로고.jpg" alt="크로스파이어">
+            <h4><hr>크로스파이어</h4>
+        </div>
+    </div>
+</body>
+</html>
